@@ -1,0 +1,4 @@
+com\hms\LabTestList\LabTestList.class
+model\LabTest.class
+model\RadiologicalTest.class
+model\PathologicalTest.class
