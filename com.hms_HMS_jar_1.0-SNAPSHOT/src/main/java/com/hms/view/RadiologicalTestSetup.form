@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="rTestTitleLabel1" min="-2" pref="64" max="-2" attributes="0"/>
+                              <Component id="rTestCostLabel1" min="-2" max="-2" attributes="0"/>
+                              <Component id="rPlateDimentionLabel1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="rAvailabilityLabel2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="rTestTypeLabel1" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                      <Component id="rSubmitButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="256" max="-2" attributes="0"/>
+                      <Component id="rcancelButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="rTextTitleField1" pref="247" max="32767" attributes="0"/>
+                      <Component id="rTextCostField1" max="32767" attributes="0"/>
+                      <Component id="rPlateDimentionField1" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="rCheckBox1" min="-2" pref="85" max="-2" attributes="0"/>
+                  <Component id="rComboBox1" min="-2" pref="72" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="101" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rTestTitleLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rTextTitleField1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rTestCostLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rTextCostField1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rPlateDimentionLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rPlateDimentionField1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rAvailabilityLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rCheckBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rTestTypeLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="133" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rSubmitButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rcancelButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="rTestTitleLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Test Title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rTestCostLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Test Cost"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rPlateDimentionLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Plate Dimention"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rAvailabilityLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Availability"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rTextTitleField1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="rTextCostField1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="rPlateDimentionField1">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="rCheckBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Default"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rTestTypeLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Test Type"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="rSubmitButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Submit"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="rcancelButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rcancelButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="rComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
